@@ -1,0 +1,10 @@
+---
+- name: Add user demo
+  hosts: all
+
+  tasks:
+    - name: Add test user to uid 4002
+      user:
+        name: testuser
+        uid: 4002
+        state: present

@@ -1,0 +1,10 @@
+220811170658.144 WARNING 'ansible_navigator.actions.run_replay._update_args' Configuration errors encountered, rolling back to previous configuration.
+220811170658.145 WARNING 'ansible_navigator.actions.run_replay._update_args' Command provided: 'replay'
+220811170658.145 WARNING 'ansible_navigator.actions.run_replay._update_args' An playbook artifact file is required when using the replay subcommand
+220811170725.227 ERROR 'ansible_navigator.actions.inventory._collect_inventory_details_interactive' Errors were encountered while gathering the inventory:
+220811174430.427 WARNING 'ansible_navigator.actions.run_replay._update_args' Configuration errors encountered, rolling back to previous configuration.
+220811174430.427 WARNING 'ansible_navigator.actions.run_replay._update_args' Command provided: 'replay'
+220811174430.427 WARNING 'ansible_navigator.actions.run_replay._update_args' An playbook artifact file is required when using the replay subcommand
+220811181127.051 WARNING 'ansible_navigator.actions.doc._update_args' Configuration errors encountered, rolling back to previous configuration.
+220811181127.051 WARNING 'ansible_navigator.actions.doc._update_args' Command provided: 'doc'
+220811181127.052 WARNING 'ansible_navigator.actions.doc._update_args' A plugin name is required when using the doc subcommand
