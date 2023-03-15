@@ -4,7 +4,8 @@
 
   tasks:
     - name: Add test user to uid 4002
-      user:
+      ansible.builtin.user:
         name: testuser
+        comment: Test User
         uid: 4002
-        state: present
+        group: wheel
