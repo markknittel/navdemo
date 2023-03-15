@@ -1,6 +1,7 @@
 ---
 - name: Add user demo
   hosts: all
+  become: yes
 
   tasks:
     - name: Add test user to uid 4002
